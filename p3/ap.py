@@ -1,0 +1,5 @@
+a = int(input("enter a number in seconds=="))
+h = int(a/3600)
+m = int(a%3600/60)
+s = int((a%3600)%60)
+print("the time is==" , h , ":" , m , ":" , s)
